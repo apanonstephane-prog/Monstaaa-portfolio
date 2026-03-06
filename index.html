@@ -118,6 +118,13 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
 @media(max-width:480px){
   .covers-grid{grid-template-columns:repeat(2,1fr)}
 }
+
+.clips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#1a1a1a;border:1px solid #1a1a1a;margin-bottom:1rem}
+.clip-card{background:#111}
+.clip-wrap{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}
+.clip-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+@media(max-width:768px){.clips-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.clips-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -128,6 +135,7 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
     <li><a href="#bio">Bio</a></li>
     <li><a href="#parcours">Parcours</a></li>
     <li><a href="#musique">Musique</a></li>
+    <li><a href="#clips">Clips</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
