@@ -67,12 +67,14 @@ nav.scrolled{border-color:#222}
 .tl-loc{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.1em;color:#c9a84c;opacity:.6;margin-bottom:.35rem}
 .tl-desc{font-size:.85rem;color:#555;line-height:1.7}
 
-.covers-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:1px;background:#1a1a1a;border:1px solid #1a1a1a;margin-bottom:2rem}
+.covers-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;background:#1a1a1a;border:1px solid #1a1a1a;margin-bottom:2rem}
 .cover-card{background:#111}
 .cover-card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
 .cover-info{padding:.7rem .8rem;border-top:1px solid #1a1a1a}
 .cover-year{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.12em;color:#c9a84c;text-transform:uppercase}
 .cover-title{font-size:.8rem;font-weight:500;color:#f0ede8;margin-top:.15rem}
+.cover-player{padding:.8rem;border-top:1px solid #1a1a1a;background:#0d0d0d}
+.cover-player iframe{border-radius:8px;display:block}
 .stream-block{border:1px solid #1a1a1a;padding:2.5rem 2rem;text-align:center;background:#111;position:relative;overflow:hidden}
 .stream-block::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(to right,transparent,#c9a84c,transparent)}
 .stream-block p{font-family:'DM Mono',monospace;font-size:.68rem;letter-spacing:.12em;color:#555;text-transform:uppercase;margin-bottom:1.5rem}
@@ -204,13 +206,41 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
   <div class="sec-label">Discographie</div>
   <h2 class="sec-title">La <span>Musique</span></h2>
   <div class="covers-grid fi">
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_8517.JPG" alt="Juste Une Minute"><div class="cover-info"><div class="cover-year">2026 · Single</div><div class="cover-title">Juste Une Minute</div></div></div>
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_7352.jpg" alt="Le Son du Four"><div class="cover-info"><div class="cover-year">2025 · Single</div><div class="cover-title">Le Son du Four</div></div></div>
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9459.JPG" alt="Mada"><div class="cover-info"><div class="cover-year">2025 · Single</div><div class="cover-title">Mada</div></div></div>
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9462.JPG" alt="BIPOLAR"><div class="cover-info"><div class="cover-year">2023 · Mixtape</div><div class="cover-title">BIPOLAR</div></div></div>
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9460.JPG" alt="Back From Radikal"><div class="cover-info"><div class="cover-year">Single</div><div class="cover-title">Back From Radikal</div></div></div>
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9463.JPG" alt="Back 2 Radikal"><div class="cover-info"><div class="cover-year">Single</div><div class="cover-title">Back 2 Radikal</div></div></div>
-    <div class="cover-card"><img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9464.PNG" alt="Trap-List-Tape"><div class="cover-info"><div class="cover-year">2013 · Sekel Block</div><div class="cover-title">Trap-List-Tape</div></div></div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_8517.JPG" alt="Juste Une Minute">
+      <div class="cover-info"><div class="cover-year">2026 · Single</div><div class="cover-title">Juste Une Minute</div></div>
+      <div class="cover-player"><iframe src="https://open.spotify.com/embed/track/61h7pq9pswhEeyDide34Yr?utm_source=generator" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_7352.jpg" alt="Le Son du Four">
+      <div class="cover-info"><div class="cover-year">2025 · Single</div><div class="cover-title">Le Son du Four</div></div>
+      <div class="cover-player"><iframe src="https://open.spotify.com/embed/track/6ffJucnPumZo2QucBCV2Ax?utm_source=generator" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9459.JPG" alt="Mada">
+      <div class="cover-info"><div class="cover-year">2025 · Single</div><div class="cover-title">Mada</div></div>
+      <div class="cover-player"><iframe src="https://open.spotify.com/embed/track/1ttwPAOzEm8UpJeU5Ii9lr?utm_source=generator" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9460.JPG" alt="Back From Radikal">
+      <div class="cover-info"><div class="cover-year">Album · L'Ovni</div><div class="cover-title">Back From Radikal</div></div>
+      <div class="cover-player"><iframe src="https://open.spotify.com/embed/album/4voxI7k3Piy6LK6wi0t3ik?utm_source=generator" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9462.JPG" alt="BIPOLAR">
+      <div class="cover-info"><div class="cover-year">2023 · Mixtape</div><div class="cover-title">BIPOLAR</div></div>
+      <div class="cover-player"><iframe width="100%" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2019230685&color=%23c9a84c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe></div>
+    </div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9463.JPG" alt="Back 2 Radikal">
+      <div class="cover-info"><div class="cover-year">Album · Monstaaa L'Ovni</div><div class="cover-title">Back 2 Radikal</div></div>
+      <div class="cover-player"><iframe width="100%" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1350644977&color=%23c9a84c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe></div>
+    </div>
+    <div class="cover-card">
+      <img src="https://raw.githubusercontent.com/apanonstephane-prog/Monstaaa-portfolio/main/IMG_9464.PNG" alt="Trap-List-Tape">
+      <div class="cover-info"><div class="cover-year">2013 · Sekel Block</div><div class="cover-title">Trap-List-Tape</div></div>
+      <div class="cover-player"><iframe width="100%" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2018334345&color=%23c9a84c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe></div>
+    </div>
   </div>
   <div class="stream-block fi">
     <p>Playlist YouTube — à venir · En attendant, écoute sur les plateformes</p>
