@@ -60,13 +60,13 @@ nav.scrolled{border-color:#222}
 .tl-loc{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.1em;color:#c9a84c;opacity:.6;margin-bottom:.35rem}
 .tl-desc{font-size:.85rem;color:#555;line-height:1.7}
 .covers-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1px;background:#1a1a1a;border:1px solid #1a1a1a;margin-bottom:2rem}
-.cover-card{background:#111}
+.cover-card{background:#111;overflow:hidden}
 .cover-card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
 .cover-info{padding:.7rem .8rem;border-top:1px solid #1a1a1a}
 .cover-year{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.12em;color:#c9a84c;text-transform:uppercase}
 .cover-title{font-size:.8rem;font-weight:500;color:#f0ede8;margin-top:.15rem}
 .cover-player{padding:.6rem;border-top:1px solid #1a1a1a;background:#0d0d0d}
-.cover-player iframe{border-radius:6px;display:block}
+.cover-player iframe{border-radius:0;display:block;width:100%!important}
 .stream-block{border:1px solid #1a1a1a;padding:2rem;text-align:center;background:#111}
 .stream-block p{font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.12em;color:#555;text-transform:uppercase;margin-bottom:1.2rem}
 .stream-links{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
@@ -229,8 +229,8 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
     <p>Écouter sur les plateformes</p>
     <div class="stream-links">
       <a href="https://open.spotify.com/artist/038Iz0gPJqbFC9UYQitqMC" target="_blank" class="stream-btn">Spotify</a>
-      <a href="https://www.deezer.com/artist/7667306" target="_blank" class="stream-btn">Deezer</a>
-      <a href="https://music.apple.com/artist/1073091839" target="_blank" class="stream-btn">Apple Music</a>
+      <a href="https://link.deezer.com/s/32Dm0D4UyiGGKWD9llzZi" target="_blank" class="stream-btn">Deezer</a>
+      <a href="https://music.apple.com/fr/artist/lovni/1073091839?l=en-GB" target="_blank" class="stream-btn">Apple Music</a>
       <a href="https://soundcloud.com/monstaaa-lovni" target="_blank" class="stream-btn">SoundCloud</a>
     </div>
   </div>
@@ -271,8 +271,8 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
   <div class="contact-grid">
     <div>
       <p class="contact-intro">Pour toute demande de booking scène, collaboration artistique, interview presse ou partenariat.</p>
-      <div class="contact-item"><span class="ci-label">Booking / Label</span><span class="ci-value"><a href="mailto:bande2loups@gmail.com">bande2loups@gmail.com</a></span></div>
-      <div class="contact-item"><span class="ci-label">Contact artiste</span><span class="ci-value"><a href="mailto:monstaaa-official@hotmail.fr">monstaaa-official@hotmail.fr</a></span></div>
+      <div class="contact-item"><span class="ci-label">Booking / Label</span><span class="ci-value"><a href="/cdn-cgi/l/email-protection#9bf9faf5fffea9f7f4eeebe8dbfcf6faf2f7b5f8f4f6"><span class="__cf_email__" data-cfemail="6103000f0504530d0e14111221060c00080d4f020e0c">[email&#160;protected]</span></a></span></div>
+      <div class="contact-item"><span class="ci-label">Contact artiste</span><span class="ci-value"><a href="/cdn-cgi/l/email-protection#c7aaa8a9b4b3a6a6a6eaa8a1a1aea4aea6ab87afa8b3aaa6aeabe9a1b5"><span class="__cf_email__" data-cfemail="6b060405181f0a0a0a46040d0d0208020a072b03041f060a0207450d19">[email&#160;protected]</span></a></span></div>
       <div class="contact-item"><span class="ci-label">Label</span><span class="ci-value">Bande 2 Loups Records</span></div>
       <div class="contact-item"><span class="ci-label">Zone</span><span class="ci-value">Lyon · Toulouse · France · International</span></div>
     </div>
@@ -283,8 +283,8 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
       <a href="https://youtube.com/@monstaa-ai?si=V0Rn2ev3Kk4nzwTV" target="_blank" class="soc-link"><span>YouTube — Monstaa AI</span><span>→</span></a>
       <a href="https://youtube.com/@sekelblock?si=A-f81HVz_21HVtLR" target="_blank" class="soc-link"><span>YouTube — Sekel Block</span><span>→</span></a>
       <a href="https://open.spotify.com/artist/038Iz0gPJqbFC9UYQitqMC" target="_blank" class="soc-link"><span>Spotify</span><span>→</span></a>
-      <a href="https://www.deezer.com/artist/7667306" target="_blank" class="soc-link"><span>Deezer</span><span>→</span></a>
-      <a href="https://music.apple.com/artist/1073091839" target="_blank" class="soc-link"><span>Apple Music</span><span>→</span></a>
+      <a href="https://link.deezer.com/s/32Dm0D4UyiGGKWD9llzZi" target="_blank" class="soc-link"><span>Deezer</span><span>→</span></a>
+      <a href="https://music.apple.com/fr/artist/lovni/1073091839?l=en-GB" target="_blank" class="soc-link"><span>Apple Music</span><span>→</span></a>
     </div>
   </div>
 </div>
@@ -292,14 +292,4 @@ footer{border-top:1px solid #1a1a1a;padding:2rem 3rem}
 
 <footer>
   <div class="footer-inner">
-    <div class="f-logo">Monstaaa L'Ovni</div>
-    <div class="f-copy">© 2026 · Bande 2 Loups Records</div>
-  </div>
-</footer>
-
-<script>
-const nav = document.getElementById('nav');
-window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50));
-</script>
-</body>
-</html>
+    <div cl
